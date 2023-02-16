@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1 style="text-align: center; color: blue;">type conversion</h1>
+    <h1>false <hr></h1>
+    <p id="a" style="color: blueviolet;"></p>
+    <h1>true <hr></h1>
+    <p id="b" style="color: rgb(49, 226, 43);"></p>
+    <h1>0 <hr></h1>
+    <p id="c" style="color: rgb(55, 43, 226);"></p>
+    <h1>1<hr></h1>
+    <p id="d" style="color: rgb(226, 52, 43);"></p>
+    <h1>"0"<hr></h1>
+    <p id="e" style="color: rgb(171, 226, 43);"></p>
+    <h1>"00"<hr></h1>
+    <p id="f" style="color: red;"></p>
+    <h1>"000"<hr></h1>
+    <p id="g" style="color:yellow;"></p>
+    <h1>"1"<hr></h1>
+    <p id="h" style="color: red;"></p>
+    <h1>"11"<hr></h1>
+    <p id="i" style="color: red;"></p>
+    <h1>NAN<hr></h1>
+    <p id="j" style="color: red;"></p>
+    <h1>Infinity<hr></h1>
+    <p id="k" style="color: red;"></p>
+    <h1>-Infinity<hr></h1>
+    <p id="l" style="color: red;"></p>
+    <h1>""<hr></h1>
+    <p id="m" style="color: red;"></p>
+    <h1>''<hr></h1>
+    <p id="n" style="color: red;"></p>
+    <h1>10<hr></h1>
+    <p id="o" style="color: red;"></p>
+    <h1>100<hr></h1>
+    <p id="p" style="color: red;"></p>
+    <h1>"ten"<hr></h1>
+    <p id="q" style="color: red;"></p>
+    <h1>"onehoundred"<hr></h1>
+    <p id="r" style="color: red;"></p>
+    <h1>[]<hr></h1>
+    <p id="s" style="color: red;"></p>
+    <h1>{}<hr></h1>
+    <p id="t" style="color: red;"></p>
+    <h1>[10]<hr></h1>
+    <p id="u" style="color: red;"></p>
+    <h1>[10,20]<hr></h1>
+    <p id="v" style="color: red;"></p>
+    <h1>["ten"]<hr></h1>
+    <p id="w" style="color: red;"></p>
+    <h1>["one","two"]<hr></h1>
+    <p id="x" style="color: red;"></p>
+    <h1>function(){}<hr></h1>
+    <p id="y" style="color: red;"></p>
+    <h1>null<hr></h1>
+    <p id="z" style="color: red;"></p>
+
+    
+
+
+
+        <script>
+let a = false;
+let b = true;
+let c = 0;
+let d = 1;
+let e = "0";
+let f = "00";
+let g = "000";
+let h  = "1";
+let i = "11";
+let j = NaN;
+let k = Infinity;
+let l = -Infinity;
+let m = "";
+let n = '';
+let o = "10";
+let p = "100";
+let q = "ten";
+let r = "onehoundred";
+let s = [];
+let t = {};
+let u = [10];
+let v =[10,20];
+let w =["ten"];
+let x =["one","two"];
+let y =function(){};
+let z =null
+
+
+
+document.getElementById("a").innerHTML ="Number : " + Number(a) + "<br>" +"String : " + String(a) + "<br>" +"Boolean: " + Boolean(a);
+document.getElementById("b").innerHTML ="Number : " + Number(b) + "<br>" +"String : " + String(b) + "<br>" +"Boolean: " + Boolean(b);
+document.getElementById("c").innerHTML ="Number : " + Number(c) + "<br>" +"String : " + String(c) + "<br>" +"Boolean: " + Boolean(c);
+document.getElementById("d").innerHTML ="Number : " + Number(d) + "<br>" +"String : " + String(d) + "<br>" +"Boolean: " + Boolean(d);
+document.getElementById("e").innerHTML ="Number : " + Number(e) + "<br>" +"String : " + String(e) + "<br>" +"Boolean: " + Boolean(e);
+document.getElementById("f").innerHTML ="Number : " + Number(f) + "<br>" +"String : " + String(f) + "<br>" +"Boolean: " + Boolean(f);
+document.getElementById("g").innerHTML ="Number : " + Number(g) + "<br>" +"String : " + String(g) + "<br>" +"Boolean: " + Boolean(g);
+document.getElementById("h").innerHTML ="Number : " + Number(h) + "<br>" +"String : " + String(h) + "<br>" +"Boolean: " + Boolean(h);
+document.getElementById("i").innerHTML ="Number : " + Number(i) + "<br>" +"String : " + String(i) + "<br>" +"Boolean: " + Boolean(i);
+document.getElementById("j").innerHTML ="Number : " + Number(j) + "<br>" +"String : " + String(j) + "<br>" +"Boolean: " + Boolean(j);
+document.getElementById("k").innerHTML ="Number : " + Number(k) + "<br>" +"String : " + String(k) + "<br>" +"Boolean: " + Boolean(k);
+document.getElementById("l").innerHTML ="Number : " + Number(l) + "<br>" +"String : " + String(l) + "<br>" +"Boolean: " + Boolean(l);
+document.getElementById("m").innerHTML ="Number : " + Number(m) + "<br>" +"String : " + String(m) + "<br>" +"Boolean: " + Boolean(m);
+document.getElementById("n").innerHTML ="Number : " + Number(n) + "<br>" +"String : " + String(n) + "<br>" +"Boolean: " + Boolean(n);
+
+document.getElementById("o").innerHTML ="Number : " + Number(o) + "<br>" +"String : " + String(o) + "<br>" +"Boolean: " + Boolean(o);
+document.getElementById("p").innerHTML ="Number : " + Number(p) + "<br>" +"String : " + String(p) + "<br>" +"Boolean: " + Boolean(p);
+
+document.getElementById("q").innerHTML ="Number : " + Number(q) + "<br>" +"String : " + String(q) + "<br>" +"Boolean: " + Boolean(q);
+document.getElementById("r").innerHTML ="Number : " + Number(r) + "<br>" +"String : " + String(r) + "<br>" +"Boolean: " + Boolean(r);
+
+document.getElementById("s").innerHTML ="Number : " + Number(s) + "<br>" +"String : " + String(s) + "<br>" +"Boolean: " + Boolean(s);
+document.getElementById("t").innerHTML ="Number : " + Number(t) + "<br>" +"String : " + String(t) + "<br>" +"Boolean: " + Boolean(t);
+
+document.getElementById("u").innerHTML ="Number : " + Number(u) + "<br>" +"String : " + String(u) + "<br>" +"Boolean: " + Boolean(u);
+document.getElementById("v").innerHTML ="Number : " + Number(v) + "<br>" +"String : " + String(v) + "<br>" +"Boolean: " + Boolean(v);
+
+document.getElementById("w").innerHTML ="Number : " + Number(w) + "<br>" +"String : " + String(w) + "<br>" +"Boolean: " + Boolean(w);
+document.getElementById("x").innerHTML ="Number : " + Number(x) + "<br>" +"String : " + String(x) + "<br>" +"Boolean: " + Boolean(x);
+
+document.getElementById("y").innerHTML ="Number : " + Number(y) + "<br>" +"String : " + String(y) + "<br>" +"Boolean: " + Boolean(y);
+document.getElementById("z").innerHTML ="Number : " + Number(z) + "<br>" +"String : " + String(z) + "<br>" +"Boolean: " + Boolean(z);
+
+</script>
+
+</body>
+</html>
